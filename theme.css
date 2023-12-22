@@ -7403,6 +7403,12 @@ p {
   padding: 10px;
   border-radius: 16px !important; }
 
+.no-border {
+  background-color: #fff;
+  border: 0px solid #fff; }
+  .no-border .card {
+    background-color: #fff; }
+
 .card-body {
   padding-left: 10px;
   padding-right: 10px;
@@ -7569,7 +7575,7 @@ p {
 
 .codebar {
   padding: 8px;
-  background-color: #f2f2f2;
+  background-color: #F9FCFF;
   text-align: center;
   border-radius: 12px;
   font-size: 13px;
