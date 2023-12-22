@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="theme.css" type="text/css">
+  <title>Agibank - Portal de negociação</title>
+</head>
+
+<body>
+  <!-- menu -->
+  <nav class="navbar navbar-expand fixed-top">
+    <div class="container"> <a class="navbar-brand text-primary" href="home.html">
+        <img class="d-block" src="img/logo.png" height="34vh">
+      </a>
+      <!-- Topbar Navbar -->
+      <p class="small title-space mb-2 mt-2 text-primary">Negociação Agibank</p>
+      <ul class="navbar-nav ml-auto text-secondary"><a class="sidebar-brand d-flex align-items-right justify-content-right" href="index.html">
+        </a>
+        <!-- Nav Item - User Information -->
+        <li class="nav-item dropdown no-arrow text-secondary">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="mr-2">Roberta</span>
+            <i class="fa fa-bars fa-fw fa-lg text-primary"></i>
+          </a>
+          <!-- Dropdown - User Information -->
+          <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+            <a class="dropdown-item" href="cadastro.html">
+              <i class="fa fa-home fa-sm fa-fw mr-2"></i> Início </a>
+            <a class="dropdown-item" href="cadastro.html">
+              <i class="fa fa-user-o fa-sm fa-fw mr-2"></i> Meu cadastro </a>
+            <a class="dropdown-item" href="codigo.html">
+              <i class="fa fa-key fa-sm fa-fw mr-2"></i> Alterar código </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logout">
+              <i class="fa fa-sign-out fa-sm fa-fw mr-2 text-gray-400"></i> Sair </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Content -->
+  <div id="inside">
+    <div class="container mb-3">
+      <div class="row mt-3">
+        <div class="col-12 col-lg-12">
+          <h5 class="text-body mb-1">Olá, Roberta Rodrigues</h5>
+          <p class="text-info mb-2">CPF 12423884-67</p>
+          <p class="text-info mb-3">Último login 12/12/2023 as 14:22 </p>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row" >
+        <div class="col-12 text-body pr-0">
+          <h4 class="mb-2 text-primary d-flex flex-row align-items-center">Contratos em aberto</h4>
+        </div>
+        <div class="d-inline-flex flex-wrap flex-column col-acao mt-0 pt-0 col-lg-6">
+          <div class="card">
+            <div class="card-header">
+              <div class="row">
+                <div class="col-12">
+                  <h6 class="float-right small  py-1 px-3">Descontos disponíveis</h6>
+                  <h5>CDC Eletrodomésticos</h5>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-6 col-lg-4 pr-0">
+                  <p class="mb-1">Valor total para negociação:</p>
+                  <h6 class="text-danger">R$ 1.250,00</h6>
+                </div>
+                <div class="col-6 col-lg-3 pr-0">
+                  <p class="mb-1">Nº do contrato:</p>
+                  <h6 class="">1224001299123</h6>
+                </div>
+                <div class="col-6 col-lg-5 pr-0">
+                  <p class="mb-1">Data da parcela mais atrasada:</p>
+                  <h6 class="">25/02/2023</h6>
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col-lg-8 col-7 pr-0">
+                  <p class="mb-1 mt-2">Selecione as parcelas a negociar:</p>
+                </div>
+                <div class="col-lg-4 d-flex align-items-center col-5">
+                  <input type="checkbox" name="select-all" id="select-all" class="float-left">
+                  <p class="ml-2 mr-0 mt-1 mb-1 small">Selecionar todas</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-12 mb-3" >
+                  <div class="table-responsive table-1">
+                    <table class="table table-hover table-striped">
+                      <thead class="small">
+                        <tr class="table-info">
+                          <th scope="col" class="pr-1">Nº da parcela</th>
+                          <th scope="col" class="">Vencimento</th>
+                          <th scope="col" class="">Valor (R$)</th>
+                          <th scope="col" class="text-center">Selecionar</th>
+                        </tr>
+                      </thead>
+                      <tbody class="small">
+                        <tr>
+                          <td scope="row">01</td>
+                          <td>22/11/2022</td>
+                          <td>250,00</td>
+                          <td class="text-center"><input type="checkbox" name="select" id="select"></td>
+                        </tr>
+                        <tr>
+                          <td scope="row">02</td>
+                          <td>22/12/2022</td>
+                          <td>250,00</td>
+                          <td class="text-center"><input type="checkbox" name="select" id="select"></td>
+                        </tr>
+                        <tr>
+                          <td scope="row">03</td>
+                          <td>22/01/2023</td>
+                          <td>250,00</td>
+                          <td class="text-center"><input type="checkbox" name="select" id="select"></td>
+                        </tr>
+                        <tr>
+                          <td scope="row">04</td>
+                          <td>22/02/2023</td>
+                          <td>250,00</td>
+                          <td class="text-center"><input type="checkbox" name="select" id="select"></td>
+                        </tr>
+                        <tr>
+                          <td scope="row">05</td>
+                          <td>22/03/2023</td>
+                          <td>250,00</td>
+                          <td class="text-center"><input type="checkbox" name="select" id="select"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-3 mb-4 px-2">
+                <div class="px-1 col-lg-12 col-11">
+                  <p class="small pl-2"> Somente os valores referentes a parcelas vencidas estão disponíveis para negociação. </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 col-lg-6">
+                  <p class="mb-1">Total de parcelas selecionadas:</p>
+                  <h6 class="" ><b>04</b></h6>
+                </div>
+                <div class="col-6 col-lg-6">
+                  <p class="mb-1">Valor total a negociar:</p>
+                  <h6><b>R$ 1000,00</b></h6>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="text-center col-md-12 mt-3">
+                  <a class="btn mb-2 btn-primary" href="#">Negociar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade mt-5" id="logout" >
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-body">Sair</h5> <button type="button" class="close" data-dismiss="modal"> <span>×</span> </button>
+        </div>
+        <div class="modal-body">
+          <h6>Deseja encerrar a sessão?</h6>
+        </div>
+        <div class="modal-footer"> <button type="button" class="btn btn-dark px-5">Sair</button> <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Voltar</button> </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>
