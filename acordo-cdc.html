@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="theme.css" type="text/css">
+  <title>Agibank - Portal de negociação</title>
+</head>
+
+<body>
+  <!-- menu -->
+  <nav class="navbar navbar-expand fixed-top">
+    <div class="container"> <a class="navbar-brand text-primary" href="home.html">
+        <img class="d-block" src="img/logo.png" height="34vh">
+      </a>
+      <!-- Topbar Navbar -->
+      <p class="small title-space mb-2 mt-2 text-primary">Negociação Agibank</p>
+      <ul class="navbar-nav ml-auto text-secondary"><a class="sidebar-brand d-flex align-items-right justify-content-right" href="index.html">
+        </a>
+        <!-- Nav Item - User Information -->
+        <li class="nav-item dropdown no-arrow text-secondary">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="mr-2">Roberta</span>
+            <i class="fa fa-bars fa-fw fa-lg text-primary"></i>
+          </a>
+          <!-- Dropdown - User Information -->
+          <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+            <a class="dropdown-item" href="cadastro.html">
+              <i class="fa fa-home fa-sm fa-fw mr-2"></i> Início </a>
+            <a class="dropdown-item" href="home.html">
+              <i class="fa fa-user-o fa-sm fa-fw mr-2"></i> Meu cadastro </a>
+            <a class="dropdown-item" href="codigo.html">
+              <i class="fa fa-key fa-sm fa-fw mr-2"></i> Alterar código </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logout">
+              <i class="fa fa-sign-out fa-sm fa-fw mr-2 text-gray-400"></i> Sair </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Content -->
+  <div id="inside">
+    <div class="container mb-3">
+      <div class="row mt-3">
+        <div class="col-12 col-lg-12">
+          <button class="btn justify-content-left text-decoration-none btn-link flex-row d-flex align-items-center mr-3 float-left pl-1 pr-2 pt-2 pb-2" onclick="history.back()"><i class="fa fa-chevron-left fa-fw pull-left text-muted"></i></button>
+          <h4 class="mb-2 text-primary">Confirmar negociação</h4>
+          <hr class="mt-4">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="flex-wrap col-acao pt-0 mt-0 col-lg-6">
+          <div class="card">
+            <div class="card-header px-3">
+              <div class="row">
+                <div class="col-lg-12 col-12">
+                  <h5>CDC Eletrodomésticos</h5>
+                  <h6 class="text-body">Resumo da negociação</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card-body mb-2 pb-2 pt-0">
+              <div class="row border-top border-info mx-0 py-2 px-1">
+                <hr class="my-2 border-info"  >
+                <div class="col-6 px-0"  >
+                  <p class="mb-0">Valor negociado</p>
+                </div>
+                <div class="col-6 px-0 text-right"  >
+                  <h6 class="text-body mb-0 mt-1">R$ 1.000,00</h6>
+                </div>
+              </div>
+              <div class="row border-top border-info mx-0 py-2 px-1">
+                <hr class="my-2 border-info"  >
+                <div class="px-0 col-8"  >
+                  <p class="mb-0">Nº de parcelas negociadas</p>
+                </div>
+                <div class="px-0 text-right col-4"  >
+                  <h6 class="text-body mb-0 mt-1">04</h6>
+                </div>
+              </div>
+              <div class="row py-2 border-top border-info mx-0 px-1">
+                <hr class="my-2 border-info">
+                <div class="px-0 col-lg-12 col-12">
+                  <p class="mb-0">Parcelas selecionadas</p>
+                </div>
+              </div>
+              <div class="row py-2 border-info mx-0 px-1">
+                <hr class="my-2 border-info">
+                <div class="px-0 col-3 col-md-3">
+                  <p class="mb-0">02</p>
+                </div>
+                <div class="px-0 text-right col-md-4 col-4">
+                  <p class="mb-0">20/01/2023</p>
+                </div>
+                <div class="px-0 text-right col-md-5 col-5">
+                  <p class="mb-0">R$ 250,00</p>
+                </div>
+              </div>
+              <div class="row py-2 b-dotted mx-0 px-1">
+                <hr class="my-2 border-info">
+                <div class="px-0 col-3 col-md-3">
+                  <p class="mb-0">03</p>
+                </div>
+                <div class="px-0 text-right col-md-4 col-4">
+                  <p class="mb-0">20/02/2023</p>
+                </div>
+                <div class="px-0 text-right col-md-5 col-5">
+                  <p class="mb-0">R$ 250,00</p>
+                </div>
+              </div>
+              <div class="row py-2 b-dotted mx-0 px-1">
+                <hr class="my-2 border-info">
+                <div class="px-0 col-3 col-md-3">
+                  <p class="mb-0">04</p>
+                </div>
+                <div class="px-0 text-right col-md-4 col-4">
+                  <p class="mb-0">20/03/2023</p>
+                </div>
+                <div class="px-0 text-right col-md-5 col-5">
+                  <p class="mb-0">R$ 250,00</p>
+                </div>
+              </div>
+              <div class="row py-2 b-dotted mx-0 px-1">
+                <hr class="my-2 border-info">
+                <div class="px-0 col-3 col-md-3">
+                  <p class="mb-0">05</p>
+                </div>
+                <div class="px-0 text-right col-md-4 col-4">
+                  <p class="mb-0">20/04/2023</p>
+                </div>
+                <div class="px-0 text-right col-md-5 col-5">
+                  <p class="mb-0">R$ 250,00</p>
+                </div>
+              </div>
+              <div class="row py-2 border-info mx-0 border-top border-bottom px-1">
+                <hr class="my-2 border-info">
+                <div class="col-6 px-0">
+                  <p class="mb-0">Vencimento</p>
+                </div>
+                <div class="col-6 px-0 text-right">
+                  <h6 class="text-body mb-0 mt-1">20/12/2023</h6>
+                </div>
+              </div>
+              <div class="row py-2 border-info mx-0 px-1 border-bottom">
+                <hr class="my-2 border-info">
+                <div class="col-6 px-0">
+                  <p class="mb-0">Forma de pagamento</p>
+                </div>
+                <div class="col-6 px-0 text-right">
+                  <h6 class="text-body mb-0 mt-1">Boleto</h6>
+                </div>
+              </div>
+              <div class="row mt-3 mb-4 px-2">
+                <div class="px-1 col-lg-12 col-11">
+                  <p class="small pl-2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy.</p>
+                </div>
+              </div>
+              <div class="row d-flex justify-content-center mt-3">
+                <div class="text-center col-md-12"><a class="btn btn-link float- mr-5 mb-4" href="home-cdc.html"><i class="fa fa-chevron-left fa-fw pull-left mt-1"></i> Voltar</a><a class="btn mb-4 btn-primary" href="home-cdc.html">Confirmar</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade mt-5" id="logout">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-body">Sair</h5> <button type="button" class="close" data-dismiss="modal"> <span>×</span> </button>
+        </div>
+        <div class="modal-body">
+          <h6>Deseja encerrar a sessão?</h6>
+        </div>
+        <div class="modal-footer"> <button type="button" class="btn btn-dark px-5">Sair</button> <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Voltar</button> </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>

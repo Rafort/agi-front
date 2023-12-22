@@ -893,3 +893,8 @@ background: linear-gradient(180deg, rgba(9,176,244,1) 80%, rgba(242,242,242,1) 8
  	border-top: 1px dotted;
   border-bottom-color: 'info';
 }
+
+.container .row {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="theme.css" type="text/css">
+  <title>Agibank - Portal de negociação</title>
+</head>
+
+<body>
+  <!-- menu -->
+  <nav class="navbar navbar-expand fixed-top">
+    <div class="container"> <a class="navbar-brand text-primary" href="home.html">
+        <img class="d-block" src="img/logo.png" height="34vh">
+      </a>
+      <!-- Topbar Navbar -->
+      <p class="small title-space mb-2 mt-2 text-primary">Negociação Agibank</p>
+      <ul class="navbar-nav ml-auto text-secondary"><a class="sidebar-brand d-flex align-items-right justify-content-right" href="index.html">
+        </a>
+        <!-- Nav Item - User Information -->
+        <li class="nav-item dropdown no-arrow text-secondary">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="mr-2">Roberta</span>
+            <i class="fa fa-bars fa-fw fa-lg text-primary"></i>
+          </a>
+          <!-- Dropdown - User Information -->
+          <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+            <a class="dropdown-item" href="cadastro.html">
+              <i class="fa fa-home fa-sm fa-fw mr-2"></i> Início </a>
+            <a class="dropdown-item" href="home.html">
+              <i class="fa fa-user-o fa-sm fa-fw mr-2"></i> Meu cadastro </a>
+            <a class="dropdown-item" href="codigo.html">
+              <i class="fa fa-key fa-sm fa-fw mr-2"></i> Alterar código </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logout">
+              <i class="fa fa-sign-out fa-sm fa-fw mr-2 text-gray-400"></i> Sair </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Content -->
+  <div id="inside">
+    <div class="container mb-3">
+      <div class="row mt-3">
+        <div class="col-12 col-lg-12">
+          <button class="btn justify-content-left text-decoration-none btn-link flex-row d-flex align-items-center mr-3 float-left pl-1 pr-2 pt-2 pb-2" onclick="history.back()"><i class="fa fa-chevron-left fa-fw pull-left text-muted"></i></button>
+          <h4 class="mb-2 text-primary">Negociar</h4>
+          <hr class="mt-4">
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-12 text-body pr-0 col-md-12">
+          <h5 class="mb-1 d-flex flex-row align-items-center">CDC Eletrodomésticos</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-8 mt-2 pr-0 col-sm-6 col-lg-3 col-6">
+          <p class="mb-1 small">Parcelas selecionadas:</p>
+          <h6 class="text-dark small">4</h6>
+        </div>
+        <div class="col-xs-8 col-lg-6 mt-2 pr-0 col-sm-6 col-6">
+          <p class="mb-1 small">Valor total selecionado:</p>
+          <h6 class="text-dark small">R$ 1.000,00</h6>
+        </div>
+      </div>
+      <div class="row pb-0">
+        <div class="col-xs-8 col-lg-12 col-12 pr-0 mt-2 col-sm-6">
+          <p class="mb-1 small">Valor total com juros e multas:</p>
+          <h5 class="mb-3 text-danger">R$ 1.250,00</h5>
+          <p class="">Escolha uma das opções:</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body pb-2 border-top-0 py-2">
+              <div class="row">
+                <div class="col-lg-12 col-12">
+                  <h5 class="text-muted">Pagamento à vista</h5>
+                  <h6 class="rounded small py-1 px-2 float-left text-white bg-secondary">- 20%</h6>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-12">
+                </div>
+              </div>
+              <div class="row pb-3">
+                <div class="col-xs-8 col-lg-12 col-12 mt-2 col-sm-6">
+                  <p class="mb-1 small"  >Valor total do acordo:</p>
+                  <h6 class="text-dark">R$ 1.000,00</h6>
+                </div>
+              </div>
+              <div class="row pb-3">
+                <div class="col-xs-8 col-lg-12 col-12">
+                  <p class="mb-1 small"  >Condição:</p>
+                  <h6 class="text-primary">1x R$ 1.000,00</h6>
+                </div>
+              </div>
+              <div class="row pb-4 mt-2">
+                <div class="col-xs-8 col-lg-12 col-12 text-center">
+                  <a class="btn mr-1 mb-1 btn-primary" href="confirmar-acordo-a.html">Pagar à vista</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body pb-2 border-top-0 py-2">
+              <div class="row">
+                <div class="col-lg-12 col-12">
+                  <h5 class="text-muted">Parcelado em 3 vezes</h5>
+                  <h6 class="rounded small py-1 px-2 float-left text-white bg-secondary">- 10%</h6>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-12">
+                </div>
+              </div>
+              <div class="row pb-3">
+                <div class="col-xs-8 col-lg-12 col-12 mt-2">
+                  <p class="mb-1 small"  >Valor total do acordo:</p>
+                  <h6 class="text-dark">R$ 1.125,00</h6>
+                </div>
+              </div>
+              <div class="row pb-3">
+                <div class="col-xs-8 col-lg-12 col-12">
+                  <p class="mb-1 small"  >Condição:</p>
+                  <h6 class="text-primary">3x R$ 375,00</h6>
+                </div>
+              </div>
+              <div class="row pb-4 mt-2">
+                <div class="col-xs-8 col-lg-12 col-12 text-center">
+                  <a class="btn mr-1 mb-1 btn-primary" href="confirmar-acordo-b.html">Pagar em 3x</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body pb-2 border-top-0 py-2">
+              <div class="row">
+                <div class="col-lg-12 col-12">
+                  <h5 class="text-muted">Parcelado em 6 vezes</h5>
+                  <h6 class="rounded small py-1 px-2 float-left text-white bg-secondary">- 5%</h6>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-12">
+                </div>
+              </div>
+              <div class="row pb-3">
+                <div class="col-xs-8 col-lg-12 col-12 mt-2">
+                  <p class="mb-1 small"  >Valor total do acordo:</p>
+                  <h6 class="text-dark">R$ 1.188,00</h6>
+                </div>
+              </div>
+              <div class="row pb-3">
+                <div class="col-xs-8 col-lg-12 col-12">
+                  <p class="mb-1 small"  >Condição:</p>
+                  <h6 class="text-primary">6x R$ 198,00</h6>
+                </div>
+              </div>
+              <div class="row pb-4 mt-2">
+                <div class="col-xs-8 col-lg-12 col-12 text-center">
+                  <a class="btn mr-1 mb-1 btn-primary" href="confirmar-acordo-c.html">Pagar em 6x</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+      </div>
+    </div>
+  </div>
+  <div class="modal fade mt-5" id="logout">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-body">Sair</h5> <button type="button" class="close" data-dismiss="modal"> <span>×</span> </button>
+        </div>
+        <div class="modal-body">
+          <h6>Deseja encerrar a sessão?</h6>
+        </div>
+        <div class="modal-footer"> <button type="button" class="btn btn-dark px-5">Sair</button> <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Voltar</button> </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>
